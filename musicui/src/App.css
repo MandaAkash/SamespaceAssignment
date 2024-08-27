@@ -1,0 +1,46 @@
+.body{
+  background-color: black;
+  height: 100%;
+  width:100%;
+}
+.song-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+  color: inherit;
+  transition: background-color 0.3s ease;
+}
+
+.song-item:hover {
+  background-color: #ffffff4c; 
+}
+@media (max-width: 768px) {
+  .song-list-container {
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 15px;
+    box-sizing: border-box;
+
+  }
+  .song-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    border-bottom: 1px solid gray;
+    transition: background-color 0.3s;
+  }
+  .body{
+     width: 100%;
+  }
+
+  .song-item:hover {
+    background-color: #d3b18c; 
+  }
+
+  .other-elements {
+    display: none;
+  }
+}
+
